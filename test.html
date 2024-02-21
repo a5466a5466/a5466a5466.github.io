@@ -49,15 +49,17 @@
             </div>
             <div style="display: flex;">
                 <p>MP3 autio Test</p>
-                <p><br> ~~~</p>
-                <button id="playButton">播放声音</button>
+                <p>
+                    &nbsp &nbsp &nbsp &nbsp
+                </p>
+                <button id="playButton">播放聲音</button>
                 <audio id="audio" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
                 <script src="script.js"></script>
             </div>
 
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut amet quas quasi vero natus nostrum
-                    voluptate quam labore? Facere, perspiciatis.</p>
+                <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness every
+                    single day. You mean everything to me, my dear Oshi~~ Love you~</p>
             </div>
         </div>
 
@@ -67,15 +69,15 @@
             </div>
             <div style="display: flex;">
                 <p>MP3 autio Test</p>
-                <p><br> ~~~</p>
-                <button id="playButton">播放声音</button>
-                <audio id="audio" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
-                <script src="script.js"></script>
+                <p>
+                    &nbsp &nbsp &nbsp &nbsp
+                </p>
+                <button onclick="playSound('audio1')">播放声音</button>
+                <audio id="audio1" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
             </div>
-
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut amet quas quasi vero natus nostrum
-                    voluptate quam labore? Facere, perspiciatis.</p>
+                <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness every
+                    single day. You mean everything to me, my dear Oshi~~ Love you~</p>
             </div>
         </div>
 
@@ -85,15 +87,15 @@
             </div>
             <div style="display: flex;">
                 <p>MP3 autio Test</p>
-                <p><br> ~~~</p>
-                <button id="playButton">播放声音</button>
-                <audio id="audio" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
-                <script src="script.js"></script>
+                <p>
+                    &nbsp &nbsp &nbsp &nbsp
+                </p>
+                <button onclick="playSound('audio2')">播放声音</button>
+                <audio id="audio2" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
             </div>
-
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut amet quas quasi vero natus nostrum
-                    voluptate quam labore? Facere, perspiciatis.</p>
+                <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness every
+                    single day. You mean everything to me, my dear Oshi~~ Love you~</p>
             </div>
         </div>
 
@@ -103,19 +105,34 @@
             </div>
             <div style="display: flex;">
                 <p>MP3 autio Test</p>
-                <p><br> ~~~</p>
-                <button id="playButton">播放声音</button>
-                <audio id="audio" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
-                <script src="script.js"></script>
+                <p>
+                    &nbsp &nbsp &nbsp &nbsp
+                </p>
+                <button onclick="playSound('audio3')">播放声音</button>
+                <audio id="audio3" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
             </div>
-
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut amet quas quasi vero natus nostrum
-                    voluptate quam labore? Facere, perspiciatis.</p>
+                <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness every
+                    single day. You mean everything to me, my dear Oshi~~ Love you~</p>
             </div>
         </div>
+
+
+
+
     </div>
+    <script>
+        function playSound(InputAudio) {
+            const audio = document.getElementById(InputAudio);
+            // 如果音頻正在播放，則暫停並重新播放，否則從頭開始播放
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.currentTime = 0;
+            }
+        }
 
+    </script>
 </body>
 
 </html>
