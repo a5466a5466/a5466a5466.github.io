@@ -23,13 +23,21 @@
             width: 300px;
             height: 400px;
             margin: 20px;
+            border-radius: 10px;
         }
 
         .photo {
             background-color: rgb(195, 233, 251);
             width: 300px;
             height: 200px;
-            text-align: center
+            text-align: center;
+            border-radius: 10px;
+
+        }
+
+        img {
+            border-radius: 10px;
+            filter: alpha(opacity=70) opacity:0.4;
         }
 
         ​
@@ -39,88 +47,903 @@
 <body>
 
     <div style="background-color: brown; width: 100%; height: 300px; margin: 10px;">
+        <img width="100%" height="100%" src="top1500x500.jpeg" alt="title picture">
         <p>Happy birthday IRyS</p>
     </div>
-    <div style="display: flex;">
 
-        <div class="card">
-            <div class="photo">
-                <img src="images/man19.jpg" width="300px" height="200px" alt=" photo here"></img>
-            </div>
-            <div style="display: flex;">
-                <p>MP3 autio Test</p>
-                <p>
-                    &nbsp &nbsp &nbsp &nbsp
-                </p>
-                <button id="playButton">播放聲音</button>
-                <audio id="audio" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
-                <script src="script.js"></script>
+    <div style="width: 100%; display: flex;justify-content: center;align-items: center;">
+        <div style="display: flex;">
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button id="playButton">播放聲音</button>
+                    <audio id="audio" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                    <script src="script.js"></script>
+                </div>
+
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
             </div>
 
-            <div>
-                <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness every
-                    single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio1')">播放声音</button>
+                    <audio id="audio1" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
             </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio2')">播放声音</button>
+                    <audio id="audio2" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio3')">播放声音</button>
+                    <audio id="audio3" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+
+
+
         </div>
+    </div>
+    <div style="width: 100%; display: flex;justify-content: center;align-items: center;">
+        <div style="display: flex;">
 
-        <div class="card">
-            <div class="photo">
-                <img src="images/man19.jpg" width="300px" height="200px" alt=" photo here"></img>
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button id="playButton">播放聲音</button>
+                    <audio id="audio" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                    <script src="script.js"></script>
+                </div>
+
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
             </div>
-            <div style="display: flex;">
-                <p>MP3 autio Test</p>
-                <p>
-                    &nbsp &nbsp &nbsp &nbsp
-                </p>
-                <button onclick="playSound('audio1')">播放声音</button>
-                <audio id="audio1" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio1')">播放声音</button>
+                    <audio id="audio1" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
             </div>
-            <div>
-                <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness every
-                    single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio2')">播放声音</button>
+                    <audio id="audio2" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
             </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio3')">播放声音</button>
+                    <audio id="audio3" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+
+
+
+
+
         </div>
-
-        <div class="card">
-            <div class="photo">
-                <img src="images/man19.jpg" width="300px" height="200px" alt=" photo here"></img>
-            </div>
-            <div style="display: flex;">
-                <p>MP3 autio Test</p>
-                <p>
-                    &nbsp &nbsp &nbsp &nbsp
-                </p>
-                <button onclick="playSound('audio2')">播放声音</button>
-                <audio id="audio2" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
-            </div>
-            <div>
-                <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness every
-                    single day. You mean everything to me, my dear Oshi~~ Love you~</p>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="photo">
-                <img src="images/man19.jpg" width="300px" height="200px" alt=" photo here"></img>
-            </div>
-            <div style="display: flex;">
-                <p>MP3 autio Test</p>
-                <p>
-                    &nbsp &nbsp &nbsp &nbsp
-                </p>
-                <button onclick="playSound('audio3')">播放声音</button>
-                <audio id="audio3" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
-            </div>
-            <div>
-                <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness every
-                    single day. You mean everything to me, my dear Oshi~~ Love you~</p>
-            </div>
-        </div>
-
-
-
 
     </div>
+
+    <div style="width: 100%; display: flex;justify-content: center;align-items: center;">
+        <div style="display: flex;">
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button id="playButton">播放聲音</button>
+                    <audio id="audio" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                    <script src="script.js"></script>
+                </div>
+
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio1')">播放声音</button>
+                    <audio id="audio1" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio2')">播放声音</button>
+                    <audio id="audio2" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio3')">播放声音</button>
+                    <audio id="audio3" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+    <div style="width: 100%; display: flex;justify-content: center;align-items: center;">
+        <div style="display: flex;">
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button id="playButton">播放聲音</button>
+                    <audio id="audio" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                    <script src="script.js"></script>
+                </div>
+
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio1')">播放声音</button>
+                    <audio id="audio1" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio2')">播放声音</button>
+                    <audio id="audio2" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio3')">播放声音</button>
+                    <audio id="audio3" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+    <div style="width: 100%; display: flex;justify-content: center;align-items: center;">
+        <div style="display: flex;">
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button id="playButton">播放聲音</button>
+                    <audio id="audio" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                    <script src="script.js"></script>
+                </div>
+
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio1')">播放声音</button>
+                    <audio id="audio1" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio2')">播放声音</button>
+                    <audio id="audio2" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio3')">播放声音</button>
+                    <audio id="audio3" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+    <div style="width: 100%; display: flex;justify-content: center;align-items: center;">
+        <div style="display: flex;">
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button id="playButton">播放聲音</button>
+                    <audio id="audio" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                    <script src="script.js"></script>
+                </div>
+
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio1')">播放声音</button>
+                    <audio id="audio1" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio2')">播放声音</button>
+                    <audio id="audio2" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio3')">播放声音</button>
+                    <audio id="audio3" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <div style="width: 100%; display: flex;justify-content: center;align-items: center;">
+        <div style="display: flex;">
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button id="playButton">播放聲音</button>
+                    <audio id="audio" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                    <script src="script.js"></script>
+                </div>
+
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio1')">播放声音</button>
+                    <audio id="audio1" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio2')">播放声音</button>
+                    <audio id="audio2" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio3')">播放声音</button>
+                    <audio id="audio3" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+    <div style="width: 100%; display: flex;justify-content: center;align-items: center;">
+        <div style="display: flex;">
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button id="playButton">播放聲音</button>
+                    <audio id="audio" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                    <script src="script.js"></script>
+                </div>
+
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio1')">播放声音</button>
+                    <audio id="audio1" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio2')">播放声音</button>
+                    <audio id="audio2" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio3')">播放声音</button>
+                    <audio id="audio3" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+    <div style="width: 100%; display: flex;justify-content: center;align-items: center;">
+        <div style="display: flex;">
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button id="playButton">播放聲音</button>
+                    <audio id="audio" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                    <script src="script.js"></script>
+                </div>
+
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio1')">播放声音</button>
+                    <audio id="audio1" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio2')">播放声音</button>
+                    <audio id="audio2" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio3')">播放声音</button>
+                    <audio id="audio3" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+    <div style="width: 100%; display: flex;justify-content: center;align-items: center;">
+        <div style="display: flex;">
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button id="playButton">播放聲音</button>
+                    <audio id="audio" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                    <script src="script.js"></script>
+                </div>
+
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio1')">播放声音</button>
+                    <audio id="audio1" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio2')">播放声音</button>
+                    <audio id="audio2" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="photo">
+                    <img src="images/man18.jpg" width="300px" height="200px" alt=" photo here"></img>
+                </div>
+                <div style="display: flex;">
+                    <p>MP3 autio Test</p>
+                    <p>
+                        &nbsp &nbsp &nbsp &nbsp
+                    </p>
+                    <button onclick="playSound('audio3')">播放声音</button>
+                    <audio id="audio3" src="yt5s.io - 10 Second Pep Talk (128 kbps).mp3"></audio>
+                </div>
+                <div>
+                    <p>Happy birthday to the one who stole my heart and continues to fill it with love and happiness
+                        every
+                        single day. You mean everything to me, my dear Oshi~~ Love you~</p>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+
     <script>
         function playSound(InputAudio) {
             const audio = document.getElementById(InputAudio);
